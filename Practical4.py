@@ -9,13 +9,14 @@ pygame.display.set_caption("Textured Triangle")
 points = [(400, 150), (250, 400), (550, 400)]
 
 # Load texture
-texture = pygame.image.load("texture2.jpg").convert()
-texture = pygame.transform.scale(texture, (300, 300))
+texture = pygame.image.load("texture1.jpg").convert()
+texture = pygame.transform.scale(texture, (300, 250))
 
 # Create mask surface
 mask = pygame.Surface((300, 250), pygame.SRCALPHA)
 triangle = [(150, 0), (0, 250), (300, 250)]
 
+# RGBA(Aplha (Transparency))
 pygame.draw.polygon(mask, (255, 255, 255, 255), triangle)
 
 # Copy texture
