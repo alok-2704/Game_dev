@@ -9,7 +9,7 @@ pygame.display.set_caption("Textured Square")
 points = [(250, 150), (550, 150), (550, 450), (250, 450)]
 
 # Load texture
-texture = pygame.image.load("texture3.jpg").convert()
+texture = pygame.image.load("texture.jpg").convert()
 texture = pygame.transform.scale(texture, (300, 300))
 
 # Create mask surface

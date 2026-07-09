@@ -9,7 +9,7 @@ pygame.display.set_caption("Textured Triangle")
 points = [(400, 150), (250, 400), (550, 400)]
 
 # Load texture
-texture = pygame.image.load("texture1.jpg").convert()
+texture = pygame.image.load("texture.jpg").convert()
 texture = pygame.transform.scale(texture, (300, 250))
 
 # Create mask surface
