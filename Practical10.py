@@ -68,13 +68,13 @@ while running:
 
         # Move bullets
         for bullet in bullets[:]:
-            bullet.y -= 8
+            bullet.y -= 9
             if bullet.y < 0:
                 bullets.remove(bullet)
 
         # Move enemies
         for enemy in enemies[:]:
-            enemy.y += 2
+            enemy.y += 1
 
             if enemy.y > HEIGHT:
                 game_over = True
