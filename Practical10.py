@@ -80,7 +80,7 @@ while running:
                 game_over = True
 
         # Collision detection
-        for bullet in bullets[:]:
+        for bullet in bullets[:]: 
             for enemy in enemies[:]:
                 if bullet.colliderect(enemy):
 
